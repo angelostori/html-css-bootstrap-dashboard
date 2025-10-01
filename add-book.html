@@ -88,38 +88,51 @@
                     <div id="titleHelp" class="form-text">Titolo versione italiana.</div>
                 </div>
 
-                <!--1RIGA 3COL GENERE ANNO ISBN#-->      
-                    <div class="mb-3 row">
-                        <!--INSERISCI GENERE-->
-                        <div class="col-4">
-                            <label for="exampleInputGenre" class="form-label">
-                                <strong>Genere</strong>
-                            </label>
+                <!--1RIGA 3COL GENERE ANNO ISBN#-->
+                <div class="mb-3 pb-3 row border-bottom">
 
-                            <input type="text" class="form-control" id="genre"
-                                placeholder="Inserisci il nome dell'autore">
-                        </div>
+                    <!--INSERISCI GENERE-->
+                    <div class="col-4">
+                        <label for="exampleInputGenre" class="form-label">
+                            <strong>Genere</strong>
+                        </label>
 
-                        <!--INSERISCI ANNO DI PUBBLICAZIONE-->
-                        <div class="col-4">
-                            <label for="exampleInputPubYear" class="form-label">
-                                <strong>Anno di Pubblicazione</strong>
-                            </label>
-
-                            <input type="text" class="form-control" id="pub-year"
-                                placeholder="Inserisci l'anno">
-                        </div>
-
-                        <!--INSERISCI CODICE ISBN#-->
-                        <div class="col-4">
-                            <label for="exampleInputIsbn" class="form-label">
-                                <strong>ISBN#</strong>
-                            </label>
-
-                            <input type="text" class="form-control" id="isbn-code"
-                                placeholder="Inserisci il codice ISBN#">
-                        </div>
+                        <select class="form-select" aria-label="Select genre">
+                            <option selected>
+                                Scegli il genere
+                            </option>
+                            <option value="1">Fantasy epico</option>
+                            <option value="2">Giallo investigativo</option>
+                            <option value="3">Distopico</option>
+                            <option value="4">Saggio storico</option>
+                            <option value="5">Romanzo rosa</option>
+                            <option value="6">Horror</option>
+                            <option value="7">Fantascienza</option>
+                            <option value="8">Thriller psicologico</option>
+                            <option value="9">Biografia/Autobiografia</option>
+                            <option value="10">Avventura</option>
+                        </select>
                     </div>
+
+                    <!--INSERISCI ANNO DI PUBBLICAZIONE-->
+                    <div class="col-4">
+                        <label for="exampleInputPubYear" class="form-label">
+                            <strong>Anno di Pubblicazione</strong>
+                        </label>
+
+                        <input type="text" class="form-control" id="pub-year" placeholder="Inserisci l'anno">
+                    </div>
+
+                    <!--INSERISCI CODICE ISBN#-->
+                    <div class="col-4">
+                        <label for="exampleInputIsbn" class="form-label">
+                            <strong>ISBN#</strong>
+                        </label>
+
+                        <input type="text" class="form-control" id="isbn-code" placeholder="Inserisci il codice ISBN#">
+                    </div>
+
+                </div>
 
 
 
